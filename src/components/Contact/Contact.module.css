@@ -1,0 +1,56 @@
+.container {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: small;
+}
+
+.conContent {
+  margin-top: 20px;
+  text-align: start;
+  width: 15%;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.conContent h5 {
+  margin-bottom: 20px;
+  color: #fb5607;
+}
+
+.conContent input {
+  font-size: small;
+}
+
+
+.conContent button {
+  width: 165px;
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+  border-radius: 2px;
+  background: #fb5607;
+  font-weight: 600;
+}
+
+.icon {
+  color: #fb5607;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conContent {
+    width: 80%;
+    text-align: start;
+    margin-left: 10%;
+  }
+}
